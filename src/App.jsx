@@ -1,5 +1,6 @@
 import './App.css';
 import SurveyCard from './components/SurveyCard';
+import EmployeeSurvey from './components/EmployeeSurvey';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         Employee Survey - PixelFree
       </header>
       <SurveyCard />
+      <EmployeeSurvey />
     </div>
   );
 }
