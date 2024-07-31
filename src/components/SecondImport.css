@@ -136,11 +136,12 @@ table {
   top: 50px;
 }
 
+/* Same classnames here AND FirstImport... Check FirstImport.css for updated styles */
 .employee_satisfaction_survey-region {
   pointer-events: auto;
   text-align: CENTER;
   font-family: Nunito;
-  font-size: 48px;
+  /* font-size: 48px; */
   font-weight: 400;
   text-overflow: ellipsis;
   white-space: pre-wrap;
@@ -150,8 +151,8 @@ table {
   -webkit-text-fill-color: #00a79dff;
   cursor: text;
   display: flex;
-  align-items: flex-start;
-  justify-content: LEFT;
+  /* align-items: flex-start; */
+  /* justify-content: LEFT; */
   padding-left: 2px;
   background-color: #00000000;
   border-width: 0px;
@@ -593,16 +594,16 @@ table {
 
 /* Changed classname here to avoid interference with FirstImport CSS file */
 .button-1-region-secondimport {
-  /* pointer-events: auto;
+  pointer-events: auto;
   text-align: LEFT;
-  font-family: Roboto;
+  /* font-family: Roboto; */
   font-size: 15px;
   font-weight: 500;
   text-overflow: ellipsis;
   white-space: pre-wrap;
   overflow: hidden;
   line-height: calc(100% + 0px);
-  word-break: break-word; */
+  word-break: break-word;
   -webkit-text-fill-color: #f4f5fdff;
   /* cursor: text;
   display: flex;
