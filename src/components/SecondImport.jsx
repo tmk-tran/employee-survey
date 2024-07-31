@@ -1,16 +1,22 @@
-import "./SurveyCard.css";
+// Imported Frame from Figma, after removing hidden elements.
+// Text in buttons were wrapped
+//    i.e the text 'BACK', had the letter 'K' on the next line
+//    i.e the text 'NEXT', had the letter 'T' on the next line
+//
+// Commented out sections are the fix for that here,
+// In the CSS file, the commented out sections are the solution to fix
+// Added borders (disabled) to the CSS classes that were modified
 
-export default function Employee_Survey() {
+import "./SecondImport.css";
+
+export default function SecondImport() {
   return (
     <div className="anchorpane2" id="anchorpane2">
       <div className="anchorpane2-region" id="anchorpane2-region">
-        <div
-          className="survey_-_row_rating_default"
-          id="survey_-_row_rating_default"
-        >
+        <div className="survey_-_row_rating" id="survey_-_row_rating">
           <div
-            className="survey_-_row_rating_default-region"
-            id="survey_-_row_rating_default-region"
+            className="survey_-_row_rating-region"
+            id="survey_-_row_rating-region"
           >
             <div
               className="employee_satisfaction_survey"
@@ -111,61 +117,16 @@ export default function Employee_Survey() {
                 <div className="button_text" id="button_text">
                   <div className="button_text-region" id="button_text-region">
                     <div className="base" id="base">
-                      <div className="base-region" id="base-region">
-                        <div className="masked_icon" id="masked_icon">
-                          <div
-                            className="masked_icon-region"
-                            id="masked_icon-region"
-                          >
-                            <div className="icon_left" id="icon_left">
-                              <div
-                                className="icon_left-region"
-                                id="icon_left-region"
-                              >
-                                <div className="vector" id="vector">
-                                  <svg
-                                    className="vector-svg"
-                                    id="vector-svg"
-                                  ></svg>
-                                  <div
-                                    className="vector-region"
-                                    id="vector-region"
-                                  ></div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                      {/* <div className="base-region" id="base-region">
                         <div className="button" id="button">
                           <label className="button-region" id="button-region">
                             BACK
                           </label>
                         </div>
-                        <div className="masked_icon-1" id="masked_icon-1">
-                          <div
-                            className="masked_icon-1-region"
-                            id="masked_icon-1-region"
-                          >
-                            <div className="icon_right" id="icon_right">
-                              <div
-                                className="icon_right-region"
-                                id="icon_right-region"
-                              >
-                                <div className="vector-1" id="vector-1">
-                                  <svg
-                                    className="vector-1-svg"
-                                    id="vector-1-svg"
-                                  ></svg>
-                                  <div
-                                    className="vector-1-region"
-                                    id="vector-1-region"
-                                  ></div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                      </div> */}
+                      <label className="button-region" id="button-region">
+                        BACK
+                      </label>
                     </div>
                   </div>
                 </div>
@@ -174,32 +135,8 @@ export default function Employee_Survey() {
                     className="button_contained-region"
                     id="button_contained-region"
                   >
-                    <div className="base-1" id="base-1">
+                    {/* <div className="base-1" id="base-1">
                       <div className="base-1-region" id="base-1-region">
-                        <div className="masked_icon-2" id="masked_icon-2">
-                          <div
-                            className="masked_icon-2-region"
-                            id="masked_icon-2-region"
-                          >
-                            <div className="icon_left-1" id="icon_left-1">
-                              <div
-                                className="icon_left-1-region"
-                                id="icon_left-1-region"
-                              >
-                                <div className="vector-2" id="vector-2">
-                                  <svg
-                                    className="vector-2-svg"
-                                    id="vector-2-svg"
-                                  ></svg>
-                                  <div
-                                    className="vector-2-region"
-                                    id="vector-2-region"
-                                  ></div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
                         <div className="button-1" id="button-1">
                           <label
                             className="button-1-region"
@@ -208,32 +145,11 @@ export default function Employee_Survey() {
                             NEXT
                           </label>
                         </div>
-                        <div className="masked_icon-3" id="masked_icon-3">
-                          <div
-                            className="masked_icon-3-region"
-                            id="masked_icon-3-region"
-                          >
-                            <div className="icon_right-1" id="icon_right-1">
-                              <div
-                                className="icon_right-1-region"
-                                id="icon_right-1-region"
-                              >
-                                <div className="vector-3" id="vector-3">
-                                  <svg
-                                    className="vector-3-svg"
-                                    id="vector-3-svg"
-                                  ></svg>
-                                  <div
-                                    className="vector-3-region"
-                                    id="vector-3-region"
-                                  ></div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
                       </div>
-                    </div>
+                    </div> */}
+                    <label className="button-1-region" id="button-1-region">
+                      NEXT
+                    </label>
                   </div>
                 </div>
               </div>

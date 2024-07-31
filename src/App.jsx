@@ -1,15 +1,13 @@
-import './App.css';
-import SurveyCard from './components/SurveyCard';
-import EmployeeSurvey from './components/EmployeeSurvey';
+import "./App.css";
+import FirstImport from "./components/FirstImport";
+import SecondImport from "./components/SecondImport";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Employee Survey - PixelFree
-      </header>
-      <SurveyCard />
-      <EmployeeSurvey />
+      <header className="App-header">Employee Survey - PixelFree</header>
+      <FirstImport />
+      <SecondImport />
     </div>
   );
 }
