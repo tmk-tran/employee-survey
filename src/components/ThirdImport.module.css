@@ -1,0 +1,226 @@
+.employeeSatisfactionSurvey {
+  width: 39.938rem;
+  position: relative;
+  line-height: 116.7%;
+  text-align: center;
+  display: inline-block;
+  height: 4.138rem;
+  flex-shrink: 0;
+}
+.question1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.25px;
+  line-height: 123.5%;
+  display: inline-block;
+  height: 3.1rem;
+  flex-shrink: 0;
+}
+.loremIpsumDolor {
+  position: absolute;
+  height: 56.46%;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  letter-spacing: 0.15px;
+  line-height: 150%;
+  display: inline-block;
+}
+.tinciduntLuctusNunc {
+  position: absolute;
+  height: 56.46%;
+  width: 93.38%;
+  top: 43.5%;
+  left: 0%;
+  letter-spacing: 0.15px;
+  line-height: 150%;
+  display: inline-block;
+}
+.group {
+  width: 39.625rem;
+  position: relative;
+  height: 3.531rem;
+  font-size: 1.125rem;
+  color: #f4f5fd;
+}
+.question1Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.25rem;
+  font-size: 2.125rem;
+}
+.veryPoor {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 160%;
+  font-weight: 500;
+}
+.div {
+  position: absolute;
+  right: 0rem;
+  bottom: 0rem;
+  letter-spacing: 0.15px;
+  line-height: 160%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 0.813rem;
+  height: 1.75rem;
+}
+.div1 {
+  position: absolute;
+  right: 3.563rem;
+  bottom: 0.063rem;
+  letter-spacing: 0.15px;
+  line-height: 160%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 0.813rem;
+  height: 1.75rem;
+}
+.div2 {
+  position: absolute;
+  right: 7.188rem;
+  bottom: 0rem;
+  letter-spacing: 0.15px;
+  line-height: 160%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 0.813rem;
+  height: 1.75rem;
+}
+.div3 {
+  position: absolute;
+  right: 10.813rem;
+  bottom: 0rem;
+  letter-spacing: 0.15px;
+  line-height: 160%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 0.813rem;
+  height: 1.75rem;
+}
+.div4 {
+  position: absolute;
+  right: 14.375rem;
+  bottom: 0rem;
+  letter-spacing: 0.15px;
+  line-height: 160%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 0.813rem;
+  height: 1.75rem;
+}
+.parent {
+  width: 15.188rem;
+  position: relative;
+  height: 1.813rem;
+  text-align: center;
+  color: #f4f5fd;
+}
+.rowRateScale {
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.562rem 0.937rem;
+  gap: 2.25rem;
+  font-size: 1.25rem;
+  color: rgba(164, 164, 194, 0.7);
+}
+.button {
+  position: relative;
+  letter-spacing: 0.46px;
+  line-height: 1.625rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.base {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0.687rem;
+}
+.buttontext {
+  position: absolute;
+  height: 100%;
+  top: 0%;
+  bottom: 0%;
+  left: calc(50% - 324.25px);
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.base1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1.375rem;
+}
+.buttoncontained {
+  position: absolute;
+  height: 100%;
+  top: 0%;
+  bottom: 0%;
+  left: calc(50% + 240.25px);
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px rgba(0, 0, 0, 0.14), 0px 1px 5px rgba(0, 0, 0, 0.12);
+  border-radius: 30px;
+  background-color: #00a79d;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #f4f5fd;
+}
+.buttons {
+  width: 40.531rem;
+  position: relative;
+  height: 3.1rem;
+  font-size: 0.938rem;
+  font-family: Roboto;
+}
+.surveyRowRating {
+  width: 100%;
+  position: relative;
+  border-radius: 15px;
+  /* background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.09),
+      rgba(255, 255, 255, 0.09)
+    ),
+    #00143c; */
+  /* Changed background color */
+  background: #00143c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 3.125rem;
+  box-sizing: border-box;
+  gap: 1.562rem;
+  text-align: left;
+  font-size: 3rem;
+  color: #00a79d;
+  font-family: Nunito;
+}

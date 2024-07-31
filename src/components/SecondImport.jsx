@@ -6,6 +6,8 @@
 // Commented out sections are the fix for that here,
 // In the CSS file, the commented out sections are the solution to fix
 // Added borders (disabled) to the CSS classes that were modified
+// 
+// Changed classname for: button-1-region to avoid interference with FirstImport CSS file
 
 import "./SecondImport.css";
 
@@ -135,21 +137,19 @@ export default function SecondImport() {
                     className="button_contained-region"
                     id="button_contained-region"
                   >
-                    {/* <div className="base-1" id="base-1">
-                      <div className="base-1-region" id="base-1-region">
-                        <div className="button-1" id="button-1">
-                          <label
-                            className="button-1-region"
-                            id="button-1-region"
-                          >
-                            NEXT
-                          </label>
-                        </div>
-                      </div>
-                    </div> */}
-                    <label className="button-1-region" id="button-1-region">
+                    {/* <div className="base-1" id="base-1"> */}
+                    {/* <div className="base-1-region" id="base-1-region"> */}
+                    {/* <div className="button-1" id="button-1"> */}
+                    {/* Changed classname here to avoid interference with FirstImport CSS file */}
+                    <label
+                      className="button-1-region-secondimport"
+                      id="button-1-region-secondimport"
+                    >
                       NEXT
                     </label>
+                    {/* </div> */}
+                    {/* </div> */}
+                    {/* </div> */}
                   </div>
                 </div>
               </div>

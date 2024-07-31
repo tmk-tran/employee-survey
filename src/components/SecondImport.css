@@ -591,7 +591,8 @@ table {
   top: 8px;
 }
 
-.button-1-region {
+/* Changed classname here to avoid interference with FirstImport CSS file */
+.button-1-region-secondimport {
   /* pointer-events: auto;
   text-align: LEFT;
   font-family: Roboto;
@@ -601,16 +602,16 @@ table {
   white-space: pre-wrap;
   overflow: hidden;
   line-height: calc(100% + 0px);
-  word-break: break-word;
+  word-break: break-word; */
   -webkit-text-fill-color: #f4f5fdff;
-  cursor: text;
+  /* cursor: text;
   display: flex;
   align-items: flex-start;
   justify-content: LEFT;
   background-color: #00000000;
   border-width: 0px;
-  width: 100%;
-  height: 100%; */
+  width: 100%; */
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
