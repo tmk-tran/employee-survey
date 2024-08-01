@@ -1,3 +1,9 @@
+// This component was imported from Figma, using a plugin to turn to code
+// Returned solution filled up the page, so it was placed in a div set to 50vw in App.jsx
+// Minor edits to css module file - changed background color
+// (Solution from Figma set the backgrounnd color a bit lighter of a blue)
+// This solution from Figma also set the global fonts for Nunito (compared to PixelFree, which set to Roboto)
+
 import styles from "./ThirdImport.module.css";
 
 const ThirdImport = () => {

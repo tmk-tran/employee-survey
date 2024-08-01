@@ -1,3 +1,4 @@
+// This component was built using PixelFree, second attempt.
 // Imported Frame from Figma, after removing hidden elements.
 // Text in buttons were wrapped
 //    i.e the text 'BACK', had the letter 'K' on the next line

@@ -1,3 +1,12 @@
+// This component was built from PixelFree using the generate code feature
+//
+// This method also codified the hidden elements in the Figma design, so 
+//  a user would have to ensure that the hidden elements are removed before importing to PixelFree.
+//
+// The hidden elements are visible as small squares next to the text in the buttons
+
+
+
 import "./FirstImport.css";
 
 export default function FirstImport() {
